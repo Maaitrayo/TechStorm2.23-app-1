@@ -39,7 +39,7 @@ fun ViewPagerSlider(){
 
     val pagerState  = rememberPagerState(
         pageCount = EventDomainList.size,
-        initialPage =  2
+        initialPage =  0
     )
 
     LaunchedEffect(Unit){
